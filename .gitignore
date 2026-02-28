@@ -18,4 +18,9 @@ __pycache__/
 
 # OS
 .DS_Store
-Thumbs.db
+Thumbs.db.terraform/ 
+.terraform/ 
+terraform.tfstate 
+terraform.tfstate.backup 
+terraform.tfstate.backup 
+.terraform.lock.hcl 
