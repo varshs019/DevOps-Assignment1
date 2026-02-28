@@ -1,0 +1,11 @@
+# Copy to backend.tf and fill in your values
+# Create storage account and container first for state
+
+terraform {
+  backend "azurerm" {
+    resource_group_name  = "terraform-state-rg"
+    storage_account_name = "yourterraformstate"
+    container_name       = "tfstate"
+    key                  = "devops-assignment/azure/terraform.tfstate"
+  }
+}

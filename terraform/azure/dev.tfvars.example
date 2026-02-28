@@ -1,0 +1,7 @@
+location     = "eastus"
+environment  = "dev"
+project_name = "devops-assignment"
+
+# Set after pushing images to ACR (from CI/CD or manual)
+backend_image  = "youracr.azurecr.io/devops-assignment-backend:latest"
+frontend_image = "youracr.azurecr.io/devops-assignment-frontend:latest"

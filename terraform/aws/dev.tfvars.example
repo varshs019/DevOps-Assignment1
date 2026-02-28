@@ -1,0 +1,7 @@
+aws_region   = "us-east-1"
+environment  = "dev"
+project_name = "devops-assignment"
+
+# Set after pushing images to ECR (from CI/CD or manual)
+backend_image  = "123456789012.dkr.ecr.us-east-1.amazonaws.com/devops-assignment-backend:latest"
+frontend_image = "123456789012.dkr.ecr.us-east-1.amazonaws.com/devops-assignment-frontend:latest"
